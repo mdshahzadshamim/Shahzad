@@ -1,4 +1,4 @@
-//Sports Champion : 8-bit Manipulation
+//Sports Champion : 9-bit Manipulation
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -16,9 +16,9 @@
 
 int main()
 {
-    unsigned int game;
+    short unsigned int game;
     printf("\nEnter Score Code: ");
-    scanf("%d", &game);
+    scanf("%u", &game);
     showbits(game);printf("\n");
     int sum = 0;
     for(int i = 0; i < 8; i++)

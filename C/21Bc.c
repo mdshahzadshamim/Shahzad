@@ -1,5 +1,6 @@
 #include<stdio.h>
 #define BV(x) (1<<x)
+#include "showbits16.h"
 int checkbits(int x, int p, int n);
 int main()
 {
@@ -8,7 +9,9 @@ int main()
     printf("\nStarting Position: ");    scanf("%d", &p);
     printf("\nNo. of Positions: ");     scanf("%d", &n);
 
-    printf("\nOutput: %d\n", checkbits(x,p,n));
+    printf("\n");
+    showbits16(x);
+    printf("\n\nOutput: %d\n", checkbits(x,p,n));
     return 0;
 }
 int checkbits(int x, int p, int n)

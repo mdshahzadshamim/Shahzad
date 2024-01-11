@@ -9,7 +9,7 @@ int main()
     showbits(num); printf("\n");
     for(int i = 0; i < 8; i++)
     {
-        if(i%2 == 0)
+        if(i%2 == 1)
         n1 |= (num | BV(i));
     }
     num = n1;

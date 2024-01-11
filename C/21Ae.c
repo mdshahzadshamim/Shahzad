@@ -1,4 +1,5 @@
-//HMS Time : 16-bit Manipulation
+// HMS Time : 16-bit Manipulation
+// This question can also be solved without using structures and unions 
 #include<stdio.h>
 #include"showbits.h"
 #define BV(x) (1<<x)
@@ -10,7 +11,7 @@ typedef struct timeind
 
 typedef union timeinunion
 {
-    unsigned short int hms;
+    short unsigned int hms;
     unsigned char time[2];
 }tu;
 

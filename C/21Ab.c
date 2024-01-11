@@ -1,4 +1,4 @@
-//Newspaper Reader Statistics : 8-bit Manipulation
+//Newspaper Reader Statistics : 9-bit Manipulation
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>

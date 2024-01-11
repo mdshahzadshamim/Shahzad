@@ -43,7 +43,7 @@ int main()
                     switch (i)
                     {
                         case 0: printf("1st Year\t"); break;
-                        case 1: printf("3nd Year\t"); break;
+                        case 1: printf("2nd Year\t"); break;
                         case 2: printf("3rd Year\t"); break;
                         case 3: printf("4th Year\t"); break;
                     }

@@ -4,7 +4,7 @@
 #define BV(x) (1<<x)
 int main()
 {
-    unsigned char color; int input;
+    unsigned char color; unsigned char input;
     printf("\nEnter the colour code: ");
     scanf("%d",&input);
     showbits(input);printf("\n");
